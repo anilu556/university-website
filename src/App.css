@@ -1,0 +1,122 @@
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  background: #0f0c29;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+.navbar__title {
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin-right: 20px;
+}
+
+.navbar__list li {
+  display: inline-block;
+  margin-left: 20px;
+  font-size: 30px;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+
+.home {
+  margin: 20px;
+  padding-top: 60px;
+  height: 80vh;
+  text-align: center;
+  border: 1px solid #24243e;
+  box-shadow: 0px 2px 12px -4px rgba(65,65,89,0.88);
+}
+
+.btn_class{
+  width: 300px;
+  height: 80px;
+  margin: 30px auto; 
+  background: #ced5e0;
+  font-size: 28px;
+  font-weight: bold
+}
+
+.btn_back{
+  width: 80px;
+  height: 40px;
+  margin: 20px auto; 
+  background: #ced5e0;
+  font-size: 18px;
+  font-weight: bold
+}
+
+a.link_back{
+  margin: 47%;
+}
+
+.classlist {
+  margin: 20px;
+  text-align: center;
+  height: 105vh;
+  box-shadow: 0px 2px 12px -4px rgba(65,65,89,0.88);
+  border: 1px solid #24243e;
+}
+
+.list{
+  width: 50%;
+  margin: 5px auto;
+}
+
+.student {
+  margin: 20px;
+  padding-left: 20px;
+  height: 80vh;
+  box-shadow: 0px 2px 12px -4px rgba(65,65,89,0.88);
+  border: 1px solid #24243e;
+}
+
+.student_card{
+  margin: 50px auto;
+}
+
+.subnavbar {
+  font-size: 20px;
+  background: #eef2f3;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d4d7d8, #eef2f3);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #d4d7d8, #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding-right: 20px;
+  text-align: right;
+}
+
+.subnavbar a {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.about, .history, .contact {
+  margin: 20px;
+  padding: 0 30px;
+  height: 70vh;
+  text-align: justify;
+  box-shadow: 0px 2px 12px -4px rgba(65,65,89,0.88);
+  border: 1px solid #24243e;
+}
+
+.about h2, .history h2 {
+  text-align: center;
+}
+
+a.links{
+  text-decoration: none;
+}
+
+a.links:hover{
+  color: #b2b2b2;
+}
+
